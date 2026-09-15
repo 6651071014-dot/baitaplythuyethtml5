@@ -1,0 +1,159 @@
+<style>
+        *{
+            box-sizing: border-box ;
+            margin : 0;
+            padding : 0;
+            font-family: Arial , sans-serif;
+        }
+        body{
+            background-color: #f4f6f8;
+            color : #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 950px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+        header{
+            background-color: #ffffff;
+            text-align: center;
+            padding: 25px 20px;
+            border-bottom: 2px solid #eaeaea;
+        }
+        header hgroup h1{
+            font-size: 26px;
+            color:#1a1a1a;
+            margin-bottom: 6px;
+        }   
+        header hgroup h2{
+            font-size: 14px;
+            color: #666;
+            font-weight: normal;
+        }
+        .content-wrapper{
+            display: flex;
+            gap: 25px;
+            padding: 30px;
+        }
+        main{
+            flex: 3;
+        }
+        .video-selection{
+            margin-bottom: 30px;
+        }
+        .video-selection h2 {
+            font-size: 18px;
+            color: #2c3e50;
+            margin-bottom: 12px;
+        }
+        video{
+            width: 100%;
+            max-width: 640px;
+            height: auto;
+            border-radius: 6px;
+            background-color: #000;
+        }
+        .video-description {
+            font-size: 13px;
+            line-height: 1.6;
+            color: #555;
+            margin-top: 10px;
+        }
+        .audio-section {
+            border-top: 1px solid #eee;
+            padding-top: 20px ;
+        }
+        .audio-section h2{
+            font-size: 18px;
+            color:#2c3e50;
+            margin-bottom: 20px;
+        }
+        .audio-item{
+            margin-bottom: 15px;
+            background-color: #f9fbfd;
+            padding: 12px 15px;
+            border-radius: 6px ;
+            border: 1px solid #e2e8f0;
+        }
+                .audio-item p {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        audio {
+            width: 100%;
+            height: 35px;
+        }
+
+        .explanation {
+            font-size: 12px;
+            color: #0d47a1;
+            margin-top: 6px;
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        /* Cột bên phải (Aside) */
+        aside {
+            flex: 1;
+            background-color: #fafafa;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 15px;
+            height: fit-content;
+        }
+
+        aside h3 {
+            font-size: 15px;
+            color: #333;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12px;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 8px 6px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #eaeaea;
+        }
+
+        /* Footer */
+        footer {
+            width: 90%;
+            max-width: 950px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 20px;
+            margin-top: 20px;
+            border-radius: 6px;
+            font-size: 12px;
+            line-height: 1.6;
+        }
+        @media (max-width: 768px) {
+            .content-wrapper {
+                flex-direction: column;
+            }
+        }
+    </style>
