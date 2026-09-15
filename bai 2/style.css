@@ -1,0 +1,153 @@
+<style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #eaf2f8;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #1b75bc, #2cb5e8, #71bf44);
+            color: white;
+            text-align: center;
+            padding: 25px 20px;
+        }
+        header hgroup h1 {
+            font-size: 26px;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+        header hgroup p {
+            font-size: 13px;
+            opacity: 0.9;
+        }
+        nav {
+            background-color: #0d47a1;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav a:first-child {
+            background-color: #1e88e5;
+        }
+        nav a:hover {
+            background-color: #1565c0;
+        }
+        main {
+            display: flex;
+            gap: 20px;
+            padding: 25px;
+        }
+        article {
+            flex: 3;
+            background-color: #f9fbfd;
+            border: 1px solid #e1e8ed;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        article header h2 {
+            font-size: 18px;
+            color: #0d47a1;
+            margin-bottom: 6px;
+        }
+        article header p {
+            font-size: 12px;
+            color: #777;
+            margin-bottom: 15px;
+        }
+        article p {
+            font-size: 13px;
+            line-height: 1.6;
+            color: #444;
+            margin-bottom: 12px;
+        }
+        article footer {
+            background: none;
+            color: #666;
+            text-align: left;
+            padding: 10px 0 0 0;
+            font-size: 12px;
+            font-weight: bold;
+            border-top: 1px dashed #ccc;
+            margin-top: 15px;
+        }
+        aside {
+            flex: 1;
+            background-color: #f4f7f9;
+            border: 1px solid #e1e8ed;
+            border-radius: 8px;
+            padding: 15px;
+            height: fit-content;
+        }
+        aside h3 {
+            font-size: 15px;
+            color: #333;
+            margin-bottom: 12px;
+            border-bottom: 2px solid #1e88e5;
+            padding-bottom: 5px;
+        }
+        aside ul {
+            list-style: none;
+        }
+        aside li {
+            margin-bottom: 10px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #eaf0f6;
+            font-size: 12px;
+        }
+        aside li a {
+            color: #1e88e5;
+            text-decoration: none;
+            line-height: 1.4;
+            display: block;
+        }
+        aside li a:hover {
+            text-decoration: underline;
+        }
+        body > footer {
+            width: 90%;
+            max-width: 1000px;
+            background-color: #c0d8f0;
+            color: #1a365d;
+            text-align: center;
+            padding: 12px 20px;
+            margin-top: 15px;
+            border-radius: 6px;
+            font-size: 12px;
+        }
+
+        footer address {
+            font-style: normal;
+            line-height: 1.5;
+        }
+        @media (max-width: 768px) {
+            main {
+                flex-direction: column;
+            }
+        }
+    </style>
